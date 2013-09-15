@@ -65,16 +65,16 @@ class Progs {
         IntList m = null;
         while (L != null){
             if (i < start) {
+                L = L.tail;
                 i ++; 
             }
             else {
                 for (i = start; i < len; i++) {
-                    dcatenate(Intlist M, L.head);
+                   m.tail = L;
                 }
             }
-            i++;
         }
-        return M;
+        return m;
     }
 
     /* 2c. */

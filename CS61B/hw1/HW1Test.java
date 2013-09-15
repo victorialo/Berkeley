@@ -35,9 +35,7 @@ public class HW1Test {
                 }
             }
         }
-        else {
-            return false;
-      }
+        return false;
     }
 
 
