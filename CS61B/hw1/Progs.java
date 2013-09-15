@@ -64,11 +64,17 @@ class Progs {
         int i = 0;
         IntList m = null;
         while (L != null){
-            while (i > start) {
-                
+            if (i < start) {
+                i ++; 
             }
+            else {
+                for (i = start; i < len; i++) {
+                    dcatenate(Intlist M, L.head);
+                }
+            }
+            i++;
         }
-        return L;
+        return M;
     }
 
     /* 2c. */
