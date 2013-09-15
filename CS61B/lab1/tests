@@ -1,0 +1,18 @@
+tests.cmd
+java YearCheck 1900 1901 1902 1903 1904
+
+
+tests.out
+1900 is not a leap year.
+1901 is not a leap year.
+1902 is not a leap year.
+1903 is not a leap year.
+1904 is a leap year.
+
+tests.std
+1900 is not a leap year.
+1901 is not a leap year.
+1902 is not a leap year.
+1903 is not a leap year.
+1904 is a leap year.
+
